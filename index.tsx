@@ -5,7 +5,7 @@ import PinCodeChoose from "./src/PinCodeChoose";
 import PinCodeEnter from "./src/PinCodeEnter";
 import { hasPinCode, deletePinCode, resetInternalStates, PinResultStatus } from "./src/utils";
 
-import AsyncStorage from '@react-native-community/async-storage'
+import {AsyncStorage} from 'react-native'
 import * as React from "react";
 import { View, StyleSheet, StyleProp, ViewStyle, TextStyle } from "react-native";
 
